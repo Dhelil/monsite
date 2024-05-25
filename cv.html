@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="css/style_cv.css" rel="stylesheet">
+    <link href="css/style_accueil.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="profil.html">Profil</a></li>
+                <li> <a href="cv.html">Curriculum Vitae</a></li>
+                <li> <a href="projets.html">Projets</a></li>
+                <li> <a href="stage.html">Stages</a></li>
+                <li> <a href="veillesTechnologiques.html">Veilles Technologiques</a></li>
+                <li> <a href="certifications.html">Certifications</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_hamburger" src="images/menu_hamburger.png" alt="menu hamburger">
+    </nav>
+
+
+
+    <div class="infos">
+        <h1 class="titreh1">Curriculum Vitae</h1>
+        <img class="imageCV" src="images/CV_DHELIL_MEDJENI.png" alt="cv">
+        <br>
+        <a href="CV_DHELIL_MEDJENI.pdf" download="CV_DHELIL_MEDJENI.pdf" class="btnTelecharger">Telecharger</a>
+    </div>
+
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>

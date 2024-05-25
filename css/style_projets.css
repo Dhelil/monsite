@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infosDebut {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.infosDebut .titreh1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #deb992;
+}
+
+
+.description1 {
+    margin-top: 120px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #deb992;
+}
+
+.faitEnCours {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #deb992;
+}
+
+.Perso .fait {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #deb992;
+}
+
+.digicod {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    height: auto;
+    color: #deb992;
+}
+
+.titreh2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #deb992;
+}
+
+.titreh3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.img1 {
+    width: 384px;
+    height: 273px;
+    margin-right: 10px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.img2 {
+    width: 384px;
+    height: 273px;
+    margin-right: 10px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.img3 {
+    width: 384px;
+    height: 273px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.descriptionsProjet {
+    font-size: 18px;
+}
+
+.descriptionProjet1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #deb992;
+}
+
+.descriptionProjet2 {
+    padding-bottom: 10px;
+}
+
+.descriptionProjet3 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descriptionProjet5 {
+    padding-bottom: 25px;
+}
+
+.btnTelecharger {
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btnTelecharger:hover {
+    background-color: #deb992;
+    color: #000;
+}
+
+.vistat {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+}
+
+.img1Vistat {
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2Vistat {
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3Vistat {
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.dProjet {
+    font-size: 18px;
+}
+
+.dProjet1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.dProjet1-1 {
+    padding-top: 10px;
+}
+
+.dProjet2 {
+    padding-top: 15px;
+}
+
+.dProjet3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dProjet3-1 {
+    padding-top: 10px;
+}
+
+.dProjet4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dProjet4-1 {
+    margin-bottom: 30px;
+}
+
+.separation {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 22px;
+    color: #deb992;
+}
+
+.centreCall {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1CentreCall {
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2CentreCall {
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3CentreCall {
+    width: 304px;
+    height: 231px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.dP1 {
+    margin-top: 10px;
+}
+
+.dP2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.etapes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.etape4 {
+    padding-bottom: 10px;
+}
+
+.ceQueJaiFait {
+    padding-bottom: 40px;
+}
+
+.eliorRepas {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1EliorRepas {
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2EliorRepas {
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.dE1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.objectifs {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.titreObjectifs {
+    padding-bottom: 10px;
+}
+
+.obj7 {
+    padding-bottom: 10px;
+}
+
+.finDescription {
+    padding-bottom: 30px;
+}
+
+.titreh2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.symf {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1Symf {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2Symf {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3Symf {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.descriptionSymf1 {
+    padding-top: 10px;
+}
+
+.descriptionSymf2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.objectifsSymf {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.objectifsSymf .objectif3 {
+    padding-bottom: 35px;
+}
+
+
+.faitPerso {
+    padding-top: 85px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #deb992;
+}
+
+.descriptionPerso1 {
+    font-size: 18px;
+    color: #deb992;
+}
+
+.gsb_gesAMM {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1GesAmm {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2GesAmm {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3GesAmm {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.descriptionGesAmm1 {
+    padding-top: 10px;
+}
+
+.descriptionGesAmm2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.objectifsGesAmm {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.objectif3GesAmm {
+    padding-bottom: 35px;
+}
+
+.dGames {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1DGames {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2DGames {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3DGames {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.descriptionDGames1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.descriptionDGames2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.objectifsDGames {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.objectifsDGames .objectif2DGames {
+    padding-bottom: 35px;
+}
+
+.SEO {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1SEO {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2SEO {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3SEO {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.descriptionSEO {
+    padding-top: 10px;
+}
+
+.objectif1SEO {
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.react {
+    margin-top: 85px;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #deb992;
+    height: auto;
+    font-size: 18px;
+}
+
+.img1react {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img2react {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.img3react {
+    width: 385px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.descriptionReact {
+    padding-top: 10px;
+}
+
+.objectifsReact {
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+
+@media screen and (max-width: 660px) {
+    .img2Vistat {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 738px) {
+    .img2EliorRepas {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    .img1EliorRepas {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .img1 {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img2 {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img3 {
+        width: 99%;
+        height: 99%;
+    }
+}
+
+@media screen and (max-width : 610px) {
+    .img3Vistat {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .img1CentreCall {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .img1Vistat {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    .img2CentreCall {
+        width: 99%;
+    }
+
+    .img3CentreCall {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .img1Symf {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img2Symf {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img3Symf {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img1GesAmm {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img2GesAmm {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img3GesAmm {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img1DGames {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img2DGames {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img3DGames {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img1SEO {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img2SEO {
+        width: 99%;
+        height: 99%;
+    }
+
+    .img3SEO {
+        width: 99%;
+        height: 99%;
+    }
+}

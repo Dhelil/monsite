@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.fond {
+    display: flex;
+}
+
+.fondImage {
+    width: 50%;
+    display: inline;
+    border: 2px solid black;
+}
+
+
+.infos {
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 150px;
+    font-size: 18px;
+    color: #deb992;
+    text-align: center;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stage1Year {
+    text-align: center;
+}
+
+
+.infos2 {
+    font-size: 20px;
+    text-align: center;
+    color: #deb992;
+}
+
+.btnTelecharger {
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.btnTelecharger:hover {
+    background-color: #deb992;
+    color: #000;
+}
+
+.tout {
+    text-align: center;
+}
+
+.description3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.description4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.firstYear {
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.secondYear {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 375px;
+    margin-right: 375px;
+    height: auto;
+}
+
+.separation {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 22px;
+    color: #deb992;
+}
+
+.titreh1 {
+    margin-top: 15px;
+    color: #deb992;
+    font-size: 25px;
+}

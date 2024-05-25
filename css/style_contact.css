@@ -1,0 +1,27 @@
+* {
+    margin: O;
+    padding: 0;
+}
+
+.infos {
+    text-align: center;
+    color: #deb992;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infos .titreContact {
+    font-size: 30px;
+    padding-top: 170px;
+}
+
+.infos .contact {
+    margin-top: 120px;
+    width: 50%;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.infosPerso {
+    margin-top: 25px;
+}

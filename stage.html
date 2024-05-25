@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_stages.css" rel="stylesheet">
+    <link href="css/style_accueil.css" rel="stylesheet">
+    <title>Stage</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="profil.html">Profil</a></li>
+                <li> <a href="cv.html">Curriculum Vitae</a></li>
+                <li> <a href="projets.html">Projets</a></li>
+                <li> <a href="stage.html">Stages</a></li>
+                <li> <a href="veillesTechnologiques.html">Veilles Technologiques</a></li>
+                <li> <a href="certifications.html">Certifications</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_hamburger" src="images/menu_hamburger.png" alt="menu hamburger">
+    </nav>
+
+
+    <div class="infos">
+        <h1 class="titreh1">Stages</h1>
+        <div class="d1">
+            <p class="description1">En première ainsi qu’en seconde année, nous devons effectuer un stage, ils ont pour
+                but de nous donner une image pratique du milieu professionnel des services informatiques et de l’emploi.
+            </p>
+        </div>
+
+        <br>
+        <p class="description2">Ils nous permettent de développer notre expérience professionnelle et d’augmenter nos
+            compétences à partir de situations réelles dans lesquelles nous serons associés. Ils nous permettent
+            également de valider des compétences et sont notamment obligatoires afin de valider le BTS.</p>
+    </div>
+
+    <br>
+    <br>
+    <div class="firstYear">
+        <div class="tout">
+            <h1 class="titreh1">1ère année</h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="infos2">
+            <p class="description3">Pour la première année, j’ai effectué mon stage en distanciel au sein d’une
+                entreprise nommée Keozia Technology.</p>
+            <p class="description4">J'ai eu l'occasion de réaliser différentes missions dans différents langages, pour
+                en savoir plus je vous
+                invite à télécharger mon rapport de stage via le bouton ci-dessous.</p>
+            <br>
+            <br>
+            <a href="rapport1ereAnnee.pdf" download="Rapport_de_stage_MEDJENI_DHELIL.pdf"
+                class="btnTelecharger">Télécharger</a>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <p class="separation">*****************************************</p>
+    <br>
+    <br>
+
+
+    <div class="secondYear">
+        <div class="tout">
+            <h1 class="titreh1">2ème année</h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="infos2">
+            <p class="description3">Pour la seconde année, j’ai effectué mon stage en présentiel au sein d’une
+                entreprise nommée PANGEE ONG.</p>
+            <p class="description4">J'ai eu l'occasion de travailler sur deux projets, un en Symfony et un en React,
+                pour
+                en savoir plus je vous
+                invite à télécharger mon rapport de stage via le bouton ci-dessous.</p>
+            <br>
+            <br>
+            <a href="rapport2emeAnnee.pdf" download="Rapport_de_stage_MEDJENI_DHELIL.pdf"
+                class="btnTelecharger">Télécharger</a>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>

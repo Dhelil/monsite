@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_accueil.css" rel="stylesheet">
+    <title>Acceuil</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="profil.html">Profil</a></li>
+                <li> <a href="cv.html">Curriculum Vitae</a></li>
+                <li> <a href="projets.html">Projets</a></li>
+                <li> <a href="stage.html">Stages</a></li>
+                <li> <a href="veillesTechnologiques.html">Veilles Technologiques</a></li>
+                <li> <a href="certifications.html">Certifications</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_hamburger" src="images/menu_hamburger.png" alt="menu hamburger">
+    </nav>
+
+
+
+    <div class="imageFond">
+        <p class="pPresentation">Bonjour, je m'appelle Dhelil MEDJENI</p>
+        <p class="pPresentation2">Etudiant en developpement Web</p>
+
+        <div class="imagesLiens">
+            <a href="https://github.com/Dhelil">
+                <img src="images/githubBlanc.png" class="btn_gitHub" alt="GitHub"></img>
+            </a>
+            <a href="https://www.linkedin.com/in/dhelil-medjeni/">
+                <img src="images/linkedin-logo-blanc.png" class="btn_linkeDin" alt="LinkedIn"></img>
+            </a>
+        </div>
+        
+        <button onclick = "window.location.href = 'profil.html'" class="btnEnSavoirPlus">En savoir plus</button>
+    </div>
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html>

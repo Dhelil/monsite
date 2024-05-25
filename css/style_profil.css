@@ -1,0 +1,44 @@
+@font-face {
+    font-family: BrandonGrotesqueWeb-Thin;
+    src: url(font/FontsFree-Net-d1.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphes {
+    background-color: #051622;
+    background-size: cover;
+    height: 869px;
+    color: #deb992;
+    text-align: center;
+    font-family: BrandonGrotesqueWeb-Thin, sans-serif;
+}
+
+.paragraphes .titreh1 {
+    padding-top: 170px;
+    justify-content: center;
+}
+
+.p1 {
+    padding-top: 120px;
+    font-size: 18px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.p2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.p3 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 375px;
+    margin-right: 375px;
+}

@@ -1,0 +1,223 @@
+@font-face {
+    font-family: BrandonGrotesqueWeb-Thin;
+    src: url(font/FontsFree-Net-d1.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #051622;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: BrandonGrotesqueWeb-Thin,sans-serif;
+    background-image: url(images/landscape.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .menu_hamburger {
+    display: none;
+    width: 55px;
+    height: 45px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        padding: 0;
+    }
+
+    .navbar .logo{
+        position: absolute;
+        top: 30px;
+    }
+
+
+    .navbar .menu_hamburger{
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        display: block;
+    }
+
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgb(255, 255, 255, 0.2999);
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.5em;
+    }
+
+}
+
+
+.imageFond{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.imagesLiens {
+    display: inline;
+
+}
+
+
+.imagesLiens .btn_gitHub{
+    width: 33px;
+    height: 33px;
+}
+
+.imagesLiens .btn_linkeDin{
+    width: 35px;
+    height: 35px;
+}
+
+.pPresentation {
+    padding-right: 77px;
+    padding-top: 320px;
+    color: #deb992;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: BrandonGrotesqueWeb-Thin,sans-serif;
+}
+
+.pPresentation2{
+    margin-top: 12px;
+    padding-right: 575px;
+    color: #deb992;
+    font-size: 20px;
+    font-family: BrandonGrotesqueWeb-Thin,sans-serif;
+
+}
+
+.btnEnSavoirPlus{
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: #deb992;
+    background-color: #000;
+    font-size: 20px;
+    display: inline;
+    margin-top: 25px;
+    margin-right: 620px;
+    font-family: BrandonGrotesqueWeb-Thin,sans-serif;
+
+}
+
+.btnEnSavoirPlus:hover{
+    background-color: #deb992;
+    color: #000;
+}
+
+@media screen and (max-width: 779px) {
+    .imageFond .pPresentation{
+        font-size: 25px;
+        padding-top: 500px;
+    }
+
+    .imageFond .pPresentation2{
+        font-size: 10px;
+        padding-right: 325px;
+    }
+
+    .btnEnSavoirPlus{
+        font-size: 10px;
+        margin: 0;
+        margin-top: 10px;
+        margin-right: 370px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .imageFond .pPresentation{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .imageFond .pPresentation2{
+        font-size: 10px;
+        padding-right: 245px;
+    }
+
+    .btnEnSavoirPlus{
+        font-size: 10px;
+        margin: 0;
+        margin-top: 10px;
+        margin-right: 280px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .imageFond .pPresentation{
+        padding-left: 0px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+
+    .imageFond .pPresentation2{
+        font-size: 10px;
+        padding-right: 200px;
+    }
+
+    .btnEnSavoirPlus{
+        font-size: 10px;
+        margin: 0;
+        margin-top: 10px;
+        margin-right: 260px;
+    }
+}

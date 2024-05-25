@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_certifications.css" rel="stylesheet">
+    <link href="css/style_accueil.css" rel="stylesheet">
+    <title>Certifications</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="stage.html">Stages</a></li>
+                <li><a href="veillesTechnologiques.html">Veilles Technologiques</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_hamburger" src="images/menu_hamburger.png" alt="menu hamburger">
+    </nav>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+<div class="infos">
+    <h3 class="titreCertifs">Certifications</h3>
+
+    <p class="description1">Sur cette page, vous retrouverez toutes les certifications, celles réalisées en cours et
+        celles
+        réalisées à titre personnel.</p>
+
+    <p class="faitEnCours">Celles réalisées en cours</p>
+
+    <p class="separation">*****************************************</p>
+
+    <h2 class="Annee">Première Année</h2>
+
+    <p class="separation">*****************************************</p>
+
+    <p class="description">En ce qui concerne les certifications, nous en passons plusieurs en première année, notamment
+        les trois premières de CISCO qui sont et dont les badges sont :</p>
+
+    <p class="cisco1">• Introduction to Cybersecurity</p>
+    <p class="cisco2">• Cybersecurity Essentials</p>
+    <p class="cisco3">• Networking Essentials</p>
+
+    <div class="imageBadges">
+        <img class="badge1" src="images/imgCertif1.png" alt="badge1">
+        <img class="badge2" src="images/imgCertif2.png" alt="badge2">
+        <img class="badge3" src="images/imgCertif3.webp" alt="badge3">
+    </div>
+
+    <p class="suiteExplications">Nous passons également la certification Voltaire, qui est une certification en français
+        ayant
+        pour objectif de garantir un niveau de maîtrise de la langue française.</p>
+
+    <img class="voltaire" src="images/imgVoltaire.png" alt="voltaire">
+
+    <p class="separation">*****************************************</p>
+
+    <h2 class="Annee">Deuxième Année</h2>
+
+    <p class="separation">*****************************************</p>
+
+    <p class="description">En ce qui concerne la seconde année, nous passons plusieurs certifications, notamment Pix,
+        SecNum et RGPD.
+    </p>
+
+    <div class="imageBadges2emeAnnee">
+        <img class="badge1" src="images/secnum.jpeg" alt="badge1">
+        <img class="badge2" src="images/atelierRGPD.jpeg" alt="badge2">
+        <img class="badge3" src="images/Pix.png" alt="badge3">
+    </div>
+
+    <p class="separation">*****************************************</p>
+
+    <p class="faitToutSeul">Celles réalisées à titre personnel</p>
+
+    <p class="separation">*****************************************</p>
+
+    <p class="description">En ce qui concerne les certifications réalisées à titre personnel, il y en a plusieurs sur
+        différentes plateformes, notamment OpenClassrooms, Udemy et Coursera.</p>
+    <p class="description">J'en ai réalisé dans plusieurs domaines dans lesquels je souhaitais progresser, notamment
+        JavaScript, C# et React.
+    </p>
+
+    <div class="imageBadges2emeAnneePerso">
+        <img class="badge1" src="images/Udemy.png" alt="badge1">
+        <img class="badge2" src="images/Cursera.png" alt="badge2">
+        <img class="badge3" src="images/OpenClassroms.png" alt="badge3">
+    </div>
+</div>
+
+</html>

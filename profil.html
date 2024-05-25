@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_profil.css" rel="stylesheet">
+    <link href="css/style_accueil.css" rel="stylesheet">
+    <title>Profil</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="profil.html">Profil</a></li>
+                <li> <a href="cv.html">Curriculum Vitae</a></li>
+                <li> <a href="projets.html">Projets</a></li>
+                <li> <a href="stage.html">Stages</a></li>
+                <li> <a href="veillesTechnologiques.html">Veilles Technologiques</a></li>
+                <li> <a href="certifications.html">Certifications</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_hamburger" src="images/menu_hamburger.png" alt="menu hamburger">
+    </nav>
+
+   <div class="paragraphes">
+            <h1 class="titreh1">A propos de moi</h1>
+
+            <p class="p1">Je m’appelle Dhelil Medjeni, je suis actuellement etudiant à Vernon au lycee Saint Adjutor, en deuxieme annee de BTS SIO specialite « SLAM »: Solutions Logicielles et Applications Metier.</p>
+            <br>
+            <p class="p2">Depuis petit, j’ai toujours ete attire par l’informatique et les nouvelles technologies. C’est tout naturellement que je me suis tourne vers ces etudes, en effectuant precedemment une premiere et une terminale avec notamment la specialite « Numerique et Sciences Informatique», et maintenant avec ce BTS.</p>
+            <br>
+            <p class="p3">Afin d’en savoir plus sur moi, je vous invite a vous rendre sur l’onglet « Curriculum Vitae ».</p>
+            <br>
+   </div> 
+    
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html>
